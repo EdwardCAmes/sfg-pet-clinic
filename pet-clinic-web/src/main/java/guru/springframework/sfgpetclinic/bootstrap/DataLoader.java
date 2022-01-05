@@ -76,7 +76,7 @@ public class DataLoader implements CommandLineRunner {
         catVisit.setDate(LocalDate.now());
         catVisit.setDescription("Plague");
         visitService.save(catVisit);
-        
+
         System.out.println("Loaded Visits....");
 
         Specialty radiology = new Specialty();
